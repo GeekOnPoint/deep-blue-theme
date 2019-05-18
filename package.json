@@ -1,0 +1,21 @@
+{
+    "name": "deep-blue-theme",
+    "displayName": "Deep Blue Theme",
+    "description": "A dark theme with high contrast focused on readability using striking colors as a mnemonic device.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "zelaznogydna.theme-deep-blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/deep-blue.json"
+            }
+        ]
+    }
+}
